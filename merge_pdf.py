@@ -4,9 +4,9 @@ import os
 import shutil
 import tempfile
 from argparse import ArgumentParser
+from collections.abc import Sequence
 from logging import getLogger
 from pathlib import Path
-from collections.abc import Sequence
 
 from PyPDF2 import PdfMerger
 
